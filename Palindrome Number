@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class kk
+{
+    public static void main(String[] args) {
+            Scanner in = new Scanner(System.in);
+            System.out.print("Введите целое число: ");
+            String a = in.nextLine();
+            String b = new StringBuilder(a).reverse().toString();
+            if (a.equals(b))
+            {
+                System.out.print("Число является палиндроном!");
+            }
+            else {
+                System.out.print("Не является палиндроном!");
+            }
+    }
+}
